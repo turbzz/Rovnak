@@ -1,1 +1,16 @@
 /* Main CSS */
+
+// Set charset
+@charset "UTF-8";
+
+// Module dependencies
+@import "breakpoint";
+@import "breakpoint-slicer";
+
+// Project dependencies
+
+
+
+.button {
+	background-color: #000;
+}
