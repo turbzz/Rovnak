@@ -1,0 +1,27 @@
+{
+  "name": "Rovnak 2017",
+  "version": "0.0.1",
+  "description": "Mr Rovnaks New Website",
+  "keywords": "[\"durisol\", \"construction\", \"modern website\", \"sass\", \"javascript\"]",
+  "author": "Thorben Luepkes",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "*",
+    "breakpoint-sass": "^2.7.0",
+    "breakpoint-slicer": "^2.0.0",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-image-embed": "*",
+    "grunt-postcss": "*",
+    "grunt-sass": "*",
+    "load-grunt-tasks": "*",
+    "node-json-minify": "*",
+    "time-grunt": "*"
+  }
+}
