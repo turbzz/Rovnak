@@ -7,10 +7,7 @@
 @import "breakpoint";
 @import "breakpoint-slicer";
 
-// Project dependencies
+// Include your own stylesheets underneath here
+//@import "top/header"
 
 
-
-.button {
-	background-color: #000;
-}
