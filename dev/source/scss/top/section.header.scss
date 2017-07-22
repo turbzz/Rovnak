@@ -9,6 +9,7 @@ header {
 	color: white;
 	margin-top: 20px;
 	.input-group {
+		height: 30px;
 		::-webkit-input-placeholder { 
 		  color: $btn-primary-bg-color;  /* Chrome/Opera/Safari */
 		  font-size: .65em;
@@ -25,6 +26,22 @@ header {
 		  color: $btn-primary-bg-color;  /* Firefox 18- */
 		  font-size: .65em;
 		}
+	}
+	.input-group-btn:not(:last-child)>.btn, .input-group-btn:not(:last-child)>.btn-group,
+	.input-group-btn:not(:first-child)>.btn, .input-group-btn:not(:first-child)>.btn-group {
+	  border-right: 0px !important;
+	  padding: 0px 9px;
+	  border-color: rgba(255,255,255,0.3) !important;
+	}
+	.input-group .form-control:not(:first-child),
+	.input-group-addon:not(:first-child),
+	.input-group-btn:not(:first-child)>.btn,
+	.input-group-btn:not(:first-child)>.btn-group>.btn,
+	.input-group-btn:not(:first-child)>.dropdown-toggle,
+	.input-group-btn:not(:last-child)>.btn-group:not(:first-child)>.btn,
+	.input-group-btn:not(:last-child)>.btn:not(:first-child),
+	.input-group .form-control:not(:last-child) {
+	  border-color: rgba(255,255,255,0.3) !important;
 	}
 
 	.btn-secondary {

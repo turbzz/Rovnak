@@ -1,0 +1,119 @@
+.display-flex {
+  display: flex;
+
+  .flex-child {
+    display: flex;
+    align-self: center;
+
+    p {
+      margin-bottom: 0px;
+    }
+
+  }
+
+}
+section {
+  padding: 30px 0px;
+
+  &.border {
+    border-bottom:1px solid #ddd;
+    border-top:1px solid #ddd;
+  }
+
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-top: 20px !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+}
+
+article {
+  p {
+    line-height: 140%;
+  }
+
+  a {
+    color: #FEB109;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    &.tick {
+      &::before {
+        font-family: FontAwesome;
+        content: "\f00c";
+        color:#FEB109;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.btn-primary {
+  border-color: transparent !important;
+  background-color: #FEB109 !important;
+  font-size: 13px;
+}
+
+.services {
+  position: relative;
+  img {
+    position: absolute;
+    bottom: -30px;
+  }
+  a {
+    color: #777;
+  }
+  .nav-link {
+    border:1px solid #ddd;
+    margin-bottom: -1px;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    &.active, &:focus, &:active{
+      border-left: 5px solid #FEB109;
+      border-right :0px;
+      background: transparent !important;
+      color: #FEB109;
+    }
+  }
+}
+
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #EEE !important;
+  margin: 0px 5px;
+}
+
+
+.border-top {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+
+
+.review {
+  margin-bottom: 50px;
+  padding: 0px 10px;
+  .review-info {
+    font-size: 90%;
+    margin-bottom: 20px;
+    p {
+      margin-bottom: 3px;
+    }
+    .name, .bold {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}

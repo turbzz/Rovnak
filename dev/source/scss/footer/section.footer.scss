@@ -1,0 +1,33 @@
+footer {
+  padding: 40px 0px;
+  &.bg-dark {
+    background-color: #444;
+    color: #aaa;
+    a {
+      color: #FEB109 !important;
+    }
+    h2 {
+      color: #FEB109;
+      border-bottom: 1.5px solid #888;
+      padding-bottom: 10px;
+      font-size: 16px !important;
+      font-weight: 400;
+    }
+    .get-in-touch {
+      border-bottom: 1px solid #888;
+      padding: 15px 10px;
+      p {
+        margin-bottom: 0px;
+      }
+      .fa {
+            padding-right: 20px;
+      }
+    }
+  }
+}
+
+.copyright {
+  background-color: #262626;
+  color: #888;
+  margin-bottom: 0px;
+}
