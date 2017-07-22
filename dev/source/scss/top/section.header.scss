@@ -1,0 +1,84 @@
+/* HEADER */
+
+@import "../globals/vars";
+
+header {
+	position: absolute!important;
+	width: 100%;
+	z-index: 1;
+	color: white;
+	margin-top: 20px;
+	.input-group {
+		::-webkit-input-placeholder { 
+		  color: $btn-primary-bg-color;  /* Chrome/Opera/Safari */
+		  font-size: .65em;
+		}
+		::-moz-placeholder { 
+		  color: $btn-primary-bg-color;  /* Firefox 19+ */
+		  font-size: .65em;
+		}
+		:-ms-input-placeholder { 
+		  color: $btn-primary-bg-color;  /* IE 10+ */
+		  font-size: .65em;
+		}
+		:-moz-placeholder { 
+		  color: $btn-primary-bg-color;  /* Firefox 18- */
+		  font-size: .65em;
+		}
+	}
+
+	.btn-secondary {
+    	border-color: $font-color-headline;
+    	background-color: transparent;
+    	color: white;
+	}
+
+	.form-control {
+		background-color: transparent;
+		border-color: white;
+	}
+
+	.nav-item {
+		text-transform: uppercase;
+		color:$font-color-headline;
+	}
+
+	.input-grp-btn {
+		background-color: white;
+	}
+}
+
+.cta-marketing { 
+	background-image: url("../imgs/background.jpg");
+	background-size: cover;
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background-color: #000;
+		opacity: 0.6;
+	}
+
+	h1 {
+		color: $font-color-headline;
+		font-family: $font-family-headline;
+	}
+
+	p {
+		font-family: $font-family-base;
+		color: $font-color-headline;
+	}
+
+	.btn-primary {
+		border-color: transparent;
+		background-color: $btn-primary-bg-color;
+	}
+
+	.jumbotron {
+		background-color: transparent;
+	}
+}	

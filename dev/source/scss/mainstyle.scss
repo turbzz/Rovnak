@@ -7,7 +7,13 @@
 @import "breakpoint";
 @import "breakpoint-slicer";
 
-// Include your own stylesheets underneath here
 
+// Globals
+@import "globals/type";
+@import "globals/layout";
+
+
+// Sections
+@import "top/section.header";
 
 

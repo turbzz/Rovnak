@@ -1,0 +1,41 @@
+@import "../globals/vars";
+
+body {
+	overflow-x: hidden;
+}
+
+.articles {
+	margin-bottom: 35px;
+}
+
+.move-up {
+	margin-top: -150px;
+}
+
+section {
+	margin-bottom: 2vw;
+}
+
+.cta-marketing {
+	text-align: center;
+	.jumbotron {
+		padding: 300px 0;
+	}
+}
+
+.border-seperation {
+		color: #222;
+	    position: relative;
+	    border-bottom: 4px solid #ddd;
+	    padding-bottom: 20px;
+	    margin-bottom: 2vmax;
+}
+.border-seperation:before {
+	    color: #222;
+	    content: "";
+	    width: 15%;
+	    height: 4px;
+	    background: $btn-primary-bg-color;
+	    position: absolute;
+	    bottom: -4px;
+}
