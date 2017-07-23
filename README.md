@@ -1,6 +1,5 @@
 # Rovnak
 
-<<<<<<< HEAD
 Get started
 
 Installing
@@ -8,7 +7,7 @@ Installing
 Download or clone this repo
 You'll need to have Gulp installed. If you already have Gulp installed, you can skip the following line. To install gulp simply run the following line in your terminal:
 
-npm install -g gulp
+npm install -g grunt
 
 npm install
 =======
@@ -21,4 +20,4 @@ Installing
 - bundle install
 
 run grunt and gg :)
->>>>>>> 9c372ad46f0fa8364d1dbaebb1d14664e6574dc7
+
